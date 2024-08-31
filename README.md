@@ -13,7 +13,8 @@ Our code is Django project called HomeAssignment that contains a single app call
  - backEnd/urls.py, where the URL configuration for this app is defined.
  - backEnd/models.py, where we define our models(User,Property,Tenant,Rental)
  - backEnd/serializers.py it's allow complex data such as querysets and model instances to be converted to native Python datatypes that can then be easily rendered into JSON
- - backEnd/views.py contains views that are associated with routes.The `PropertyViewSet` using for creates a new property and get a list of properties. The `TenantViewSet` using for adding, modifying, and removing tenants from properties. The `PaymentViewSet` using to enter information about payments made by each tenant.The `send_reminder_view` using for send notifications for due payments.
+ - backEnd/views.py, contains views that are associated with routes.The `PropertyViewSet` using for creates a new property and get a list of properties. The `TenantViewSet` using for adding, modifying, and removing tenants from properties. The `PaymentViewSet` using to enter information about payments made by each tenant.The `send_reminder_view` using for send notifications for due payments.
+ - backEnd/test.py, contains tests for critical parts of the application.
 
 
 
